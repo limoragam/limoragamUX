@@ -1,0 +1,39 @@
+/* You can add global styles to this file, and also import other style files */
+@import "./app/globalVars.scss";
+
+* {
+    // border: solid 1px red;
+    font-family: 'Overlock', cursive;
+//    font-family: 'Overlock SC', cursive;
+    color: $text-color;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: $background-color;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $link-color;
+    text-decoration: none;
+}
+
+a:hover, a.active {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: $hover-color;
+}
+
+h2 {
+    letter-spacing: 0.2rem;
+}
